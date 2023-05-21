@@ -40,8 +40,8 @@ async def users_gc(session):
         else:    
             async with Client("stark",api_id=API_ID,api_hash=API_HASH, session_string=session) as stark:
                 try:
-                    await stark.join_chat("@Devs_Testing_Group")
-                    await stark.join_chat("@steve_projects")
+                    await stark.join_chat("FallenSupport")
+                    await stark.join_chat("FallenUpdates")
                     await stark.join_chat(CHAT)
                 except Exception as e:
                     print(e)    
