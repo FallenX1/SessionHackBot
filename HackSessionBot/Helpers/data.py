@@ -40,9 +40,23 @@ info = """
 **⦾ ᴜsᴇʀɴᴀᴍᴇ :** @{}
 """
 
-PM_BUTTON = IKM([[IKB("🤖 ʜᴀᴄᴋ", callback_data="hack_btn"),
-                 [IKB("🥀 sᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/FallenSupport"),
-                 IKB("✨ ᴜᴘᴅᴀᴛᴇs ✨", url=f"https://t.me/fallenupdates")]]])
+PM_BUTTON =  IKM(
+    [
+        [
+            IKB(
+                text="🤖 ʜᴀᴄᴋ", callback_data="hack_btn",
+            ),
+        ],
+        [
+            IKB(
+                text="🥀 sᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/FallenSupport",
+            ),
+            IKB(
+                text="✨ ᴜᴘᴅᴀᴛᴇs ✨", url=f"https://t.me/fallenupdates"
+            )
+        ],
+    ]
+)
 
 
 
